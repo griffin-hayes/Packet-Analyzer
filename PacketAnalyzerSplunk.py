@@ -5,7 +5,7 @@ from scapy.all import sniff
 from scapy.layers.inet import IP
 
 SPLUNK_URL = "http://prd-p-adirc.splunkcloud.com/en-US/manager/launcher/http-eventcollector#:8088"
-SPLUNK_TOKEN = "44cd5bf6-d693-4185-8561-e25bdadb4bb7"
+SPLUNK_TOKEN = "Token goes here"
 
 def send_to_splunk(data):
     headers = {
